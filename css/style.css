@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header{
+    padding: 15px 0;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    align-items: center;
+}
+.header-logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.login {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    background: none;
+    margin: 0 20px 0 0;
+    border: none;
+}
+.signup {
+    border-radius: 40px;
+    border: 2px solid #000;
+    background: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 18px;
+}
+@media  screen and (max-width:370px){
+    .header-logo {
+        display: none;
+    }
+    .header__content {
+        justify-content: center;
+    }
+}
